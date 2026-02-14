@@ -6,7 +6,6 @@ supply_chain_dbt:
       method: oauth
       project: "{{ env_var('BQ_PROJECT_ID') }}"
       dataset: "{{ env_var('BQ_DATASET') }}"
-      schema: "{{ env_var('BQ_DATASET') }}"
       location: "{{ env_var('BQ_LOCATION', 'US') }}"
       threads: 4
 
@@ -15,8 +14,8 @@ supply_chain_dbt:
       method: service-account
       project: "{{ env_var('BQ_PROJECT_ID') }}"
       dataset: "{{ env_var('BQ_DATASET') }}"
-      schema: "{{ env_var('BQ_DATASET') }}"
       location: "{{ env_var('BQ_LOCATION', 'US') }}"
       threads: 4
       keyfile: "{{ env_var('GOOGLE_APPLICATION_CREDENTIALS') }}"
+
 
