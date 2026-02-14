@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: raw
+    database: project-0a9be7b8-be6b-4d75-816
+    schema: raw_supply_chain
+    tables:
+      - name: raw_orders
+      - name: raw_products
+      - name: raw_suppliers
+      - name: raw_warehouses
+      - name: raw_shipments
+      - name: raw_inventory_daily
+
+
+
+

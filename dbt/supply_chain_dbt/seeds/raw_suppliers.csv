@@ -1,0 +1,201 @@
+supplier_id,supplier_name,country_code,base_lead_time_days,reliability_score
+S0001,Mcclain Bean and Tucker,GY,23,0.777
+S0002,Knapp-Andrews,HR,11,0.809
+S0003,Hudson Mason and Vang,MC,7,0.927
+S0004,Ibarra-Mercer,TN,24,0.928
+S0005,Hamilton Harris and Smith,MC,20,0.771
+S0006,Collins Johnson and Mendoza,GB,16,0.758
+S0007,Thompson Ltd,GD,5,0.802
+S0008,Weber PLC,GY,19,0.894
+S0009,Singleton Monroe and Stafford,GM,20,0.798
+S0010,Reyes Fowler and Grant,GE,23,0.918
+S0011,Leblanc Group,CY,16,0.803
+S0012,Rodriguez-Velazquez,BW,21,0.817
+S0013,King-Thornton,LA,3,0.932
+S0014,Johnson Ltd,ZW,8,0.918
+S0015,Maddox-Mclaughlin,HN,13,0.817
+S0016,Jones Garcia and Mullins,JM,9,0.98
+S0017,Bruce-Lyons,SG,13,0.775
+S0018,Martinez-Jenkins,NR,15,0.773
+S0019,Martin Jenkins and Hernandez,KG,14,0.895
+S0020,Roberson Sampson and Lamb,GN,4,0.925
+S0021,Taylor-Taylor,QA,20,0.78
+S0022,Williams PLC,CI,15,0.769
+S0023,Cummings Park and Gallagher,AO,12,0.949
+S0024,Hill Moore and Mason,CZ,22,0.963
+S0025,Myers PLC,DO,14,0.889
+S0026,Rice LLC,PW,25,0.767
+S0027,Floyd Crawford and Ellis,SL,24,0.805
+S0028,Maynard Green and Rios,ET,12,0.986
+S0029,Greene Reed and Gallagher,LR,10,0.958
+S0030,Chavez-Obrien,DM,15,0.817
+S0031,Walters Ltd,RW,23,0.95
+S0032,Reynolds Quinn and Mitchell,DZ,8,0.839
+S0033,Cain Ltd,TW,9,0.911
+S0034,Woodward-Walsh,HU,25,0.975
+S0035,Pace Johnson and Morales,PA,23,0.767
+S0036,Sanchez-Evans,AD,23,0.791
+S0037,Wilcox Peterson and Faulkner,NR,10,0.789
+S0038,Mills Inc,AF,15,0.815
+S0039,Kelly and Sons,ZM,23,0.915
+S0040,Shaw Inc,NL,10,0.914
+S0041,Perkins-Padilla,CY,4,0.805
+S0042,Hickman King and Baker,SE,4,0.943
+S0043,Mccarthy Dixon and Clayton,LT,15,0.814
+S0044,Smith Bryant and Brown,LY,9,0.969
+S0045,Gomez Kline and Rodriguez,JM,21,0.96
+S0046,Velasquez-Ferguson,GT,13,0.801
+S0047,Allen-Payne,TN,18,0.845
+S0048,Jenkins Moss and Ford,DE,23,0.86
+S0049,Marks Hall and Rich,SL,11,0.784
+S0050,West PLC,TH,20,0.879
+S0051,Ellison-Green,HT,21,0.853
+S0052,Powell-Dean,CZ,21,0.846
+S0053,Mcdonald-Hunt,MD,10,0.989
+S0054,Drake Group,CA,7,0.872
+S0055,Moss-Thompson,LV,5,0.931
+S0056,Byrd Clark and Graham,SO,6,0.787
+S0057,Wells Vaughn and Thompson,TD,8,0.94
+S0058,Foster-Moody,KZ,16,0.893
+S0059,Sherman-Mcgrath,CA,15,0.842
+S0060,Collier-Lee,SK,17,0.877
+S0061,Morse-Moore,AO,20,0.957
+S0062,West-Adams,CN,3,0.913
+S0063,Finley Bolton and Aguilar,NZ,6,0.914
+S0064,Johnson Burke and Ramsey,VN,20,0.93
+S0065,Salinas Ltd,JM,23,0.832
+S0066,Roberts-Novak,PK,12,0.854
+S0067,Jones LLC,RO,17,0.751
+S0068,Fowler Ross and Yates,TV,11,0.983
+S0069,Bond-Olson,BY,8,0.872
+S0070,Pearson Martin and Dennis,KR,6,0.959
+S0071,Morales-Wood,BT,12,0.952
+S0072,Nelson Alvarez and Larson,BE,19,0.896
+S0073,Singleton-Boyd,KI,7,0.84
+S0074,Larson PLC,BO,8,0.879
+S0075,Collins Mejia and Davidson,SM,19,0.97
+S0076,Parker-Murphy,KM,22,0.828
+S0077,Spence Inc,TJ,3,0.777
+S0078,Washington Group,GR,14,0.961
+S0079,Cox-Durham,FI,12,0.807
+S0080,Moses Ltd,TG,10,0.961
+S0081,Fernandez Carter and Gutierrez,LB,5,0.771
+S0082,Krueger Boone and Pena,IT,18,0.946
+S0083,Sheppard Ltd,ZW,20,0.934
+S0084,Lee Dennis and Love,BH,7,0.908
+S0085,Burton and Sons,TR,20,0.79
+S0086,Sanders Lynch and Zimmerman,SG,19,0.959
+S0087,Marquez Ltd,NO,16,0.981
+S0088,Gomez-Jordan,CO,20,0.931
+S0089,Barnes Coleman and Glass,PH,25,0.798
+S0090,Gordon and Sons,AE,12,0.846
+S0091,Wagner-Harris,JO,24,0.906
+S0092,Clayton Inc,SC,17,0.966
+S0093,Castro-West,AD,17,0.779
+S0094,Gray Mckay and Clay,LA,10,0.765
+S0095,Roberts-Blevins,HN,3,0.891
+S0096,Brooks-Cross,CU,10,0.891
+S0097,Gay PLC,TM,3,0.767
+S0098,Miller Inc,SO,23,0.764
+S0099,Chandler Mann and Wheeler,KG,5,0.967
+S0100,White and Sons,BJ,13,0.767
+S0101,Vargas-Nichols,AF,10,0.817
+S0102,Clark Group,GM,18,0.801
+S0103,Lee Hernandez and Blanchard,NL,7,0.924
+S0104,Garza Ltd,BD,21,0.888
+S0105,Thornton LLC,CR,10,0.938
+S0106,Douglas Hampton and Decker,LA,16,0.796
+S0107,Newton Ramirez and Brown,LS,6,0.908
+S0108,Pittman and Sons,SR,14,0.852
+S0109,Stanley-Robertson,HU,17,0.957
+S0110,Young-Coleman,LT,4,0.912
+S0111,Schneider-Flores,RO,23,0.774
+S0112,Turner-Miller,HT,15,0.925
+S0113,Brown-Vargas,MM,6,0.81
+S0114,Young Group,EC,9,0.879
+S0115,Palmer Group,NE,7,0.851
+S0116,Jackson Vincent and Wood,KW,11,0.861
+S0117,Mcguire and Sons,PY,5,0.856
+S0118,Graham-Stanley,PK,20,0.773
+S0119,Rice-Bell,JP,23,0.99
+S0120,Cantrell-Washington,SR,3,0.983
+S0121,Cobb-Roberts,HT,10,0.79
+S0122,Wells-Crawford,ID,18,0.866
+S0123,Hill Murray and Porter,KH,15,0.967
+S0124,Ross-Peterson,LB,8,0.841
+S0125,Galvan Bird and Kelley,AF,15,0.814
+S0126,Smith-Hays,NP,17,0.818
+S0127,Jackson-Jordan,EC,25,0.98
+S0128,York PLC,MG,20,0.909
+S0129,Hancock-Castro,EE,18,0.787
+S0130,Chavez and Sons,EG,12,0.802
+S0131,Ford Thomas and Chavez,BW,4,0.889
+S0132,Martinez Everett and Robinson,IQ,20,0.765
+S0133,Miller and Sons,TV,13,0.764
+S0134,Holland King and Berger,LC,21,0.864
+S0135,Frost Clark and Holt,IR,19,0.788
+S0136,Wright and Sons,LK,19,0.769
+S0137,Smith Wilson and Clark,AZ,8,0.766
+S0138,Mcdonald Mccormick and Stone,AZ,5,0.912
+S0139,Mason Ltd,ID,10,0.847
+S0140,Baxter LLC,ER,21,0.809
+S0141,Robinson-Herrera,TL,22,0.76
+S0142,Scott-Rivers,TZ,5,0.851
+S0143,Martin Alvarado and Irwin,TH,21,0.886
+S0144,James PLC,PE,13,0.974
+S0145,Campbell Dominguez and Hubbard,CZ,9,0.911
+S0146,Holland PLC,TD,13,0.807
+S0147,Walker Crawford and White,JP,15,0.781
+S0148,Dunlap Group,GW,23,0.822
+S0149,Campos Harvey and Small,TT,13,0.973
+S0150,Harris Hall and Sosa,DE,5,0.752
+S0151,Aguirre PLC,TO,22,0.99
+S0152,Fuller PLC,TD,6,0.768
+S0153,Allen Stevens and Gonzalez,NA,9,0.871
+S0154,Burns-Branch,CF,7,0.974
+S0155,Campos Murphy and Wells,GW,5,0.961
+S0156,Mckay-Snow,MN,14,0.818
+S0157,Schwartz-Gonzalez,MZ,17,0.95
+S0158,Bender-Morales,VC,25,0.823
+S0159,Phillips-Peterson,SD,23,0.877
+S0160,Ramirez-Bennett,MH,24,0.946
+S0161,Long Rosario and Bell,UY,12,0.974
+S0162,Booker Inc,UA,6,0.975
+S0163,Morgan and Sons,ID,7,0.813
+S0164,Roach Bailey and Wright,CL,6,0.928
+S0165,Williams-Perez,GH,7,0.815
+S0166,Jimenez-Davis,MX,22,0.801
+S0167,Chase PLC,RS,13,0.799
+S0168,Campbell-Duran,KZ,23,0.955
+S0169,Harmon Hoffman and Clark,VA,19,0.867
+S0170,Perez LLC,SB,4,0.772
+S0171,Higgins-Mitchell,ID,16,0.949
+S0172,Richardson-Bush,EG,4,0.751
+S0173,Hernandez Group,DO,7,0.903
+S0174,Page-Ponce,AG,11,0.789
+S0175,Norman Simpson and Ball,CG,17,0.882
+S0176,Green Jackson and Mueller,PY,16,0.885
+S0177,Roth Chase and Torres,MG,6,0.768
+S0178,Kirby Johnson and Kent,LR,25,0.967
+S0179,Dawson-Baxter,SA,20,0.759
+S0180,Allen Johnson and Torres,SE,14,0.89
+S0181,Harrison-Mendoza,BR,7,0.853
+S0182,Osborne Gonzales and Huang,BS,4,0.824
+S0183,Thomas-Reilly,NE,4,0.966
+S0184,Jones-Newman,VE,9,0.914
+S0185,Johnson Andrews and Sheppard,GT,24,0.775
+S0186,Morris-Schwartz,PY,20,0.962
+S0187,Lucas Martinez and Baxter,CA,16,0.984
+S0188,Hale LLC,HU,7,0.972
+S0189,Thompson-Kemp,ME,10,0.958
+S0190,Cole Ramos and Weaver,ZA,8,0.962
+S0191,Hines Turner and Romero,LR,3,0.793
+S0192,Harmon and Sons,QA,13,0.938
+S0193,Grant Duke and Lyons,LV,16,0.943
+S0194,Lee Inc,ER,10,0.814
+S0195,Lindsey Inc,CL,25,0.776
+S0196,Newton Inc,PS,4,0.956
+S0197,Scott-Mckay,KI,10,0.798
+S0198,Richardson Lucero and Huang,GE,17,0.834
+S0199,Boyd-Roberts,PY,10,0.804
+S0200,Cooley and Sons,BS,24,0.796

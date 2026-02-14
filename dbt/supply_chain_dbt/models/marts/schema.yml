@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: dim_products
+    description: "Product dimension"
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+
+      - name: product_category
+        description: "Normalized product category used for reporting"
+        tests:
+          - accepted_values:
+              values: ['Electronics','Furniture','Clothing','Industrial','Grocery','Sports','Office','Tools','Beauty','Apparel','Home']
+
+  - name: dim_suppliers
+    description: "Supplier dimension"
+    columns:
+      - name: supplier_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_warehouses
+    description: "Warehouse dimension"
+    columns:
+      - name: warehouse_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fct_orders
+    description: "Order fact table"
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+
+      - name: product_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_products')
+              field: product_id
+
+      - name: supplier_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_suppliers')
+              field: supplier_id
+
+      - name: warehouse_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_warehouses')
+              field: warehouse_id
