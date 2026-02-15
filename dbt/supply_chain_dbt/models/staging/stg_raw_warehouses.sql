@@ -1,7 +1,7 @@
 {{ config(materialized='view') }}
 
 select
-  cast(warehouse_id as string) as warehouse_id,
+  concat('W', lpad(regexp_extract(warehouse_id, r'\d+'), 2, '0')) as warehouse_id,
   cast(city as string) as city,
   cast(state as string) as state
-from {{ source('raw', 'raw_warehouses') }}
+from {{ ref('raw_warehouses') }}
