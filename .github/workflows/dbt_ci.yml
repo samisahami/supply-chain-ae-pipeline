@@ -26,7 +26,11 @@ jobs:
       - name: Write GCP service account key
         shell: bash
         run: |
-          echo '${{ secrets.GCP_SA_KEY }}' > $HOME/gcp_key.json
+          mkdir -p "$HOME/.gcp"
+          cat > "$HOME/.gcp/gcp_key.json" << 'EOF'
+          ${{ secrets.GCP_SA_KEY }}
+          EOF
+          ls -la "$HOME/.gcp"
 
       - name: dbt deps
         working-directory: dbt/supply_chain_dbt
@@ -35,7 +39,7 @@ jobs:
           BQ_PROJECT_ID: ${{ secrets.BQ_PROJECT_ID }}
           BQ_DATASET: ${{ secrets.BQ_DATASET }}
           BQ_LOCATION: ${{ secrets.BQ_LOCATION }}
-          GOOGLE_APPLICATION_CREDENTIALS: $HOME/gcp_key.json
+          GOOGLE_APPLICATION_CREDENTIALS: $HOME/.gcp/gcp_key.json
         run: |
           dbt deps
 
@@ -46,6 +50,6 @@ jobs:
           BQ_PROJECT_ID: ${{ secrets.BQ_PROJECT_ID }}
           BQ_DATASET: ${{ secrets.BQ_DATASET }}
           BQ_LOCATION: ${{ secrets.BQ_LOCATION }}
-          GOOGLE_APPLICATION_CREDENTIALS: $HOME/gcp_key.json
+          GOOGLE_APPLICATION_CREDENTIALS: $HOME/.gcp/gcp_key.json
         run: |
           dbt build --target ci
