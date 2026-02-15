@@ -39,7 +39,7 @@ jobs:
           BQ_PROJECT_ID: ${{ secrets.BQ_PROJECT_ID }}
           BQ_DATASET: ${{ secrets.BQ_DATASET }}
           BQ_LOCATION: ${{ secrets.BQ_LOCATION }}
-          GOOGLE_APPLICATION_CREDENTIALS: $HOME/.gcp/gcp_key.json
+          GOOGLE_APPLICATION_CREDENTIALS: /home/runner/.gcp/gcp_key.json
         run: |
           dbt deps
 
@@ -50,6 +50,6 @@ jobs:
           BQ_PROJECT_ID: ${{ secrets.BQ_PROJECT_ID }}
           BQ_DATASET: ${{ secrets.BQ_DATASET }}
           BQ_LOCATION: ${{ secrets.BQ_LOCATION }}
-          GOOGLE_APPLICATION_CREDENTIALS: $HOME/.gcp/gcp_key.json
+          GOOGLE_APPLICATION_CREDENTIALS: /home/runner/.gcp/gcp_key.json
         run: |
           dbt build --target ci
